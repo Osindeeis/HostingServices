@@ -1,0 +1,53 @@
+.block-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+
+h1 {
+    max-width: 565px;
+    color: white;
+    font-size: 73px;
+    font-weight: bold;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2A4AF4;
+    padding-bottom: 20px;
+}
+
+p {
+    font-weight: 500;
+    max-width: 441px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9B9B9B;
+    padding-bottom: 20px;
+}
+
+.block-info__btn button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+
+.plans{
+    padding: 27px 28px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.start{
+    padding: 27px 38px;
+    background: #5F65F4;
+    border: 2px solid #5F65F4;
+}

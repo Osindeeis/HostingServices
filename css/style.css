@@ -25,17 +25,19 @@ a{
 .container{
     max-width: 1440px;
     margin: auto;
+    padding: 0px 100px;
 }
 
-.nav__logo{
+.nav-logo{
     font-weight: bold;
     font-size: 20px;
     color: white;
+    float: left;
 }
 
-.nav__row, .nav__links ul{
+.nav-row, .nav-links ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -43,7 +45,7 @@ a{
     color: #2A4AF4;
 }
 
-.nav__links li{
+.nav-links li{
     margin-right: 30px;
     font-size: 20px;
 }
@@ -52,11 +54,11 @@ a{
     color:white;
 }
 
-.nav__links li:last-child{
+.nav-links li:last-child{
     margin-right: 0px;
 }
 
-.nav__btn{
+.nav-btn{
     padding: 27px 40px;
     border: 2px solid white;
     font-size: 20px;
