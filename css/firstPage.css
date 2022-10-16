@@ -78,13 +78,13 @@ p {
 }
 
 .block-img{
-    height: 845px;
+    height: 810px;
     position: relative;
 }
 
 .block-dignity{
     position: absolute;
-    bottom: 35px;
+    bottom: 0;
 }
 
 .block-dignity__row,.server-row{
@@ -119,4 +119,26 @@ p {
 .server-row__txt h4{
     font-size: 20px;
     font-weight: 500;
+}
+
+.trust{
+    background-color: #1F1D2C;
+    height: 500px;
+    text-align: center;
+}
+
+.trust-title h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    padding-top: 140px;
+    padding-bottom: 65px;
+}
+
+.trust-list img{
+    margin-right: 40px;
+}
+
+.trust-list img:last-child{
+    margin-right: 0px;
 }
