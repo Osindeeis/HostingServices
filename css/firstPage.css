@@ -142,3 +142,39 @@ p {
 .trust-list img:last-child{
     margin-right: 0px;
 }
+
+.characteristics-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.characteristics-img{
+    position: relative;
+}
+
+.characteristics-block{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    max-width: 325px;
+    background-color: #1F1D2C;
+    padding: 20px 15px;
+}
+
+.characteristics-block h3{
+    padding: 0 0px 0 20px;
+    margin: 0;
+    color: white;
+}
+
+.characteristics-block__first{
+    left: -40px;
+    top: 185px;
+}
+
+.characteristics-block__second{
+    right: -40px;
+    bottom: 164px;
+    padding: 20px 30px;
+}
