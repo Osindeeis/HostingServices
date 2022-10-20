@@ -32,27 +32,27 @@ p {
     padding-bottom: 20px;
 }
 
-.block-info__btn button{
+.block-info__btn button {
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
     color: white;
 }
 
-.plans{
+.plans {
     padding: 27px 28px;
     background: none;
     border: 2px solid white;
     margin-left: 20px;
 }
 
-.start{
+.start {
     padding: 27px 38px;
     background: #5F65F4;
     border: 2px solid #5F65F4;
 }
 
-.block-info__numbers{
+.block-info__numbers {
     display: flex;
     align-items: center;
     color: white;
@@ -60,74 +60,80 @@ p {
     margin-top: 35px;
 }
 
-.reviews,.hostings{
+.reviews,
+.hostings {
     text-align: left;
     position: relative;
-    
+
 }
 
-.reviews{
+.reviews {
     margin-right: 30px;
 }
 
-.reviews h4, .hostings h4{
+.reviews h4,
+.hostings h4 {
     position: absolute;
     color: #2A4AF4;
     font-size: 24px;
     right: -10px;
 }
 
-.block-img{
+.block-img {
     height: 810px;
     position: relative;
 }
 
-.block-dignity{
+.block-dignity {
     position: absolute;
     bottom: 0;
 }
 
-.block-dignity__row,.server-row{
+.block-dignity__row,
+.server-row {
     display: flex;
     color: white;
     align-items: flex-end;
 }
 
-.server,.ssl,.support{
+.server,
+.ssl,
+.support {
     max-width: 315px;
     padding: 25px 20px;
     background-color: #9694E7;
 }
 
-.ssl,.support{
+.ssl,
+.support {
     background-color: #5F65F4;
 }
 
 
-.server-row__txt{
+.server-row__txt {
     padding: 0;
     margin: 0;
     padding-left: 10px;
 }
 
-.server-row__txt h3{
+.server-row__txt h3 {
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
-.server-row__txt h4{
+.server-row__txt h4 {
     font-size: 20px;
     font-weight: 500;
 }
 
-.trust{
+.trust {
     background-color: #1F1D2C;
     height: 500px;
     text-align: center;
 }
 
-.trust-title h2{
+.trust-title h2 {
     font-size: 40px;
     font-weight: 600;
     color: white;
@@ -135,25 +141,29 @@ p {
     padding-bottom: 65px;
 }
 
-.trust-list img{
+.trust-list img {
     margin-right: 40px;
 }
 
-.trust-list img:last-child{
+.trust-list img:last-child {
     margin-right: 0px;
 }
 
-.characteristics-row{
+.characteristics{
+    padding-top: 70px;
+}
+
+.characteristics-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.characteristics-img{
+.characteristics-img {
     position: relative;
 }
 
-.characteristics-block{
+.characteristics-block {
     position: absolute;
     display: flex;
     align-items: center;
@@ -162,19 +172,60 @@ p {
     padding: 20px 15px;
 }
 
-.characteristics-block h3{
+.characteristics-block h3 {
     padding: 0 0px 0 20px;
     margin: 0;
     color: white;
 }
 
-.characteristics-block__first{
+.characteristics-block__first {
     left: -40px;
     top: 185px;
 }
 
-.characteristics-block__second{
+.characteristics-block__second {
     right: -40px;
     bottom: 164px;
     padding: 20px 30px;
+}
+
+.characteristics-txt {
+    text-align: left;
+    max-width: 550px;
+    position: relative;
+}
+
+.characteristics-txt h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.advantage-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 455px;
+}
+
+.advantage-row h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0;
+    color: #9694E7;
+}
+
+.advantage-row{
+    margin-top: 115px;
+}
+
+.advantage-row__first{
+    margin-top: 50px;
+}
+
+.start__characteristics{
+    padding: 27px 25px;
+    position: absolute;
+    bottom: -195px;
 }
