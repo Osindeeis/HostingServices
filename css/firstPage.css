@@ -14,6 +14,10 @@ h1 {
     padding-bottom: 20px;
 }
 
+span {
+    color: #2A4AF4;
+}
+
 h3 {
     font-style: normal;
     font-weight: 600;
@@ -21,6 +25,12 @@ h3 {
     line-height: 23px;
     color: #2A4AF4;
     padding-bottom: 20px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
 }
 
 p {
@@ -135,8 +145,6 @@ p {
 
 .trust-title h2 {
     font-size: 40px;
-    font-weight: 600;
-    color: white;
     padding-top: 140px;
     padding-bottom: 65px;
 }
@@ -196,9 +204,6 @@ p {
 }
 
 .characteristics-txt h2 {
-    font-weight: 700;
-    font-size: 60px;
-    color: white;
     padding-bottom: 20px;
 }
 
@@ -234,23 +239,25 @@ p {
     margin-top: 220px;
 }
 
-.ourServices h3{
+.ourServices h3 {
     text-align: center;
     padding: 0;
 }
 
 .ourServices h2 {
     font-weight: 700;
-    font-size: 60px;
     line-height: 70px;
-    color: white;
     padding-top: 40px;
     max-width: 666px;
     margin: auto;
     text-align: center;
 }
 
-
+.capabilities-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
 .ourServices-row {
     display: flex;
@@ -281,7 +288,11 @@ p {
     padding: 0;
 }
 
-.capabilities-block{
+.capabilities{
+    margin-top: 190px;
+}
+
+.capabilities-block {
     display: flex;
     align-items: center;
     width: 475px;
@@ -291,10 +302,53 @@ p {
     color: white;
 }
 
-.capabilities-block h4{
+.capabilities-block h4 {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     color: white;
     padding-left: 40px;
+}
+
+.capabilities-txt {
+    margin-left: 50px;
+
+}
+
+.capabilities-txt .advantage-row {
+    margin-top: 35px;
+    max-width: 570px;
+    justify-content: left;
+}
+
+.capabilities-txt h3{
+    padding: 0;
+}
+
+.capabilities-txt .advantage-row h3 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 55px;
+}
+
+.capabilities-txt .advantage-row h3:first-child {
+    margin-left: 0px;
+}
+
+.capabilities-txt h2 {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.capabilities-txt p {
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.capabilities-row button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    margin-top: 35px;
 }
