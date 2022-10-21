@@ -149,7 +149,7 @@ p {
     margin-right: 0px;
 }
 
-.characteristics{
+.characteristics {
     padding-top: 70px;
 }
 
@@ -216,16 +216,66 @@ p {
     color: #9694E7;
 }
 
-.advantage-row{
+.advantage-row {
     margin-top: 115px;
 }
 
-.advantage-row__first{
+.advantage-row__first {
     margin-top: 50px;
 }
 
-.start__characteristics{
+.start__characteristics {
     padding: 27px 25px;
     position: absolute;
     bottom: -195px;
+}
+
+.ourServices {
+    margin-top: 220px;
+}
+
+.ourServices h3{
+    text-align: center;
+    padding: 0;
+}
+
+.ourServices h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+    padding-top: 40px;
+    max-width: 666px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.ourServices-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1150px;
+    padding-top: 40px;
+}
+
+.ourServices-block {
+    width: 345px;
+    padding: 45px 25px;
+    background-color: #1F1D2C;
+}
+
+.ourServices-block h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    padding: 15px 0;
+}
+
+.ourServices-block p {
+    font-size: 20px;
+    padding: 0;
 }
