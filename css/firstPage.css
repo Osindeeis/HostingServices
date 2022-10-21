@@ -273,9 +273,28 @@ p {
     font-size: 32px;
     line-height: 38px;
     padding: 15px 0;
+    text-align: left;
 }
 
 .ourServices-block p {
     font-size: 20px;
     padding: 0;
+}
+
+.capabilities-block{
+    display: flex;
+    align-items: center;
+    width: 475px;
+    background-color: #1F1D2C;
+    padding: 35px 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.capabilities-block h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    padding-left: 40px;
 }
