@@ -435,3 +435,18 @@ p {
     line-height: 28px;
     color: #FFFFFF;
 }
+
+.map{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.map h3{
+    padding-bottom: 40px;
+}
+
+.map h2{
+    max-width: 795px;
+    margin: auto;
+    padding-bottom: 100px;
+}
