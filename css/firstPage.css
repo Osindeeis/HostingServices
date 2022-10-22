@@ -288,7 +288,7 @@ p {
     padding: 0;
 }
 
-.capabilities{
+.capabilities {
     margin-top: 190px;
 }
 
@@ -321,7 +321,7 @@ p {
     justify-content: left;
 }
 
-.capabilities-txt h3{
+.capabilities-txt h3 {
     padding: 0;
 }
 
@@ -351,4 +351,87 @@ p {
     line-height: 23px;
     color: white;
     margin-top: 35px;
+}
+
+.prices {
+    margin-top: 190px;
+    text-align: center;
+}
+
+.prices-row {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.prices-block {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+    height: 790px;
+    display: flex;
+    flex-flow: column;
+}
+
+.prices-block__main {
+    flex: 1 1 auto;
+}
+
+.prices-block h3,
+h4,
+p {
+    padding: 0;
+}
+
+.prices-block h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #171420;
+}
+
+.prices-block h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #2A4AF4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.prices-block p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5C5C5C;
+    padding-top: 20px;
+}
+
+.price h4 {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.price h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    color: #171420;
+}
+
+.buy {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 315px;
+    height: 81px;
+    background: #2A4AF4;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
