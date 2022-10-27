@@ -161,7 +161,8 @@ p {
     padding-top: 70px;
 }
 
-.characteristics-row {
+.characteristics-row,
+.testimonials-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -312,7 +313,6 @@ p {
 
 .capabilities-txt {
     margin-left: 50px;
-
 }
 
 .capabilities-txt .advantage-row {
@@ -436,17 +436,96 @@ p {
     color: #FFFFFF;
 }
 
-.map{
+.map {
     text-align: center;
     margin-top: 200px;
 }
 
-.map h3{
+.map h3 {
     padding-bottom: 40px;
 }
 
-.map h2{
+.map h2 {
     max-width: 795px;
     margin: auto;
     padding-bottom: 100px;
+}
+
+.testimonials{
+    padding-top: 160px;
+}
+
+.testimonials-txt {
+    max-width: 600px;
+}
+
+.testimonials-txt h2 {
+    padding-top: 20px;
+}
+
+.testimonials-row button {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.testimonials-block {
+    margin-top: 65px;
+    max-width: 400px;
+    height: 400px;
+    padding: 65px 20px 45px 30px;
+    background-color: #1F1D2C;
+}
+
+.testimonials-block p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 154%;
+}
+
+.testimonials-block__img {
+    padding: 0;
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    bottom: 170px;
+    left: 170px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.stars {
+    padding-bottom: 30px;
+}
+
+.author-row {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.author-info{
+    padding-left: 20px;
+}
+
+.author-info h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.author-info h5 {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2A4AF4;
 }
