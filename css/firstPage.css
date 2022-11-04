@@ -162,7 +162,7 @@ p {
 }
 
 .characteristics-row,
-.testimonials-row {
+.testimonials-row, .getStarted-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -528,4 +528,65 @@ p {
     font-size: 15px;
     line-height: 18px;
     color: #2A4AF4;
+}
+
+.getStarted{
+    background-color: #1F1D2C;
+    margin-top: 175px;
+}
+
+.getStarted-row{
+    padding-top: 75px;
+}
+
+.getStarted-txt{
+
+    max-width: 620px;  
+}
+
+.getStarted-txt h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.getStarted-txt p{
+    padding-bottom: 40px;
+}
+
+.getStarted-img{
+    position: relative;
+    background: #171420;
+    height: 630px;
+    width: 595px;
+    padding: 50px 20px;
+}
+
+.getStarted-img h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    margin-top: 15px;
+}
+
+.getStarted-img h4:first-child{
+    margin-top: 0px;
+}
+
+.getStarted-img span{
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.getStarted-img .elipse{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.man{
+    position: absolute;
+    bottom: 0;
+    right: -35px;
 }
