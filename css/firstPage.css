@@ -651,3 +651,58 @@ p {
     font-weight: 600;
     font-size: 20px;
 }
+
+footer{
+    padding-top: 400px;
+    padding-bottom: 10px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-row h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.links p {
+    padding-bottom: 40px;
+}
+
+.links img {
+    margin-left: 20px;
+}
+
+#first{
+    margin-left: 0px;
+}
+
+.footer-row h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.footer-contact__row {
+    display: flex;
+    padding-top: 15px;
+}
+
+.footer-contact__row p{
+    padding-left: 10px;
+}
+
+.footer-support a, .footer-quicklinks a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #9B9B9B;
+    display: block;
+    padding-top: 15px;
+}
